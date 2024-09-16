@@ -1,0 +1,53 @@
+"""
+=======================================================
+Package: <PACKAGE_NAME>
+=======================================================
+
+Boiler template for a description file for each package. THis will be filled out when things are pretty much completed. 
+
+1. Purpose:
+   - This package is designed to <brief description of what the package does, e.g., control motors, manage sensors, etc.>.
+   - It is a key component of the overall robot system, focusing on <specific functionality>.
+
+2. Dependencies:
+   - This package depends on the following ROS2 packages/libraries:
+     - <dependency_1>: <brief description of what the dependency provides>
+     - <dependency_2>: <brief description of what the dependency provides>
+   - Ensure all dependencies are installed using the ROS2 package manager or system package manager.
+
+3. Configuration:
+   - Configuration files are located in the `/config` directory.
+   - Key configuration parameters:
+     - <param_1>: <description of its function>
+     - <param_2>: <description of its function>
+
+4. Nodes:
+   - This package includes the following ROS2 nodes:
+     - `<node_name>`: <brief description of the node's purpose>
+     - `<node_name>`: <brief description of the node's purpose>
+   - Each node is responsible for <specific task, e.g., publishing sensor data, controlling actuators>.
+
+5. Launch Files:
+   - Launch files for this package are found in the `/launch` directory.
+   - Example launch commands:
+     - `ros2 launch <PACKAGE_NAME> <launch_file>`: <description of what the launch file does>
+
+6. Resources:
+   - Resource files such as configuration YAMLs, URDF models, or additional scripts are stored in the `/resource` folder.
+   - Example resources include:
+        1. https://github.com/adafruit/Adafruit_CircuitPython_PCA9685/tree/main?tab=readme-ov-file
+        2.
+     - `<resource_file>`: <description of its function>
+
+7. Testing:
+   - Unit tests are located in the `/test` directory.
+   - Instructions for running tests:
+     - Use the command `colcon test` to execute all unit tests.
+     - <Any specific test setup required>
+
+8. Future Improvements:
+   - <List any known issues or areas for improvement in the package.>
+
+=======================================================
+"""
+
