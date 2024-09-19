@@ -8,9 +8,9 @@ import board
 import rclpy
 from rclpy import Node
 
-class motor_controller(Node):
-    def __init__(self):
-        super().__init__('motor_controller_starter')
+# class motor_controller(Node):
+#     def __init__(self):
+#         super().__init__('motor_controller_starter')
         
 
 
